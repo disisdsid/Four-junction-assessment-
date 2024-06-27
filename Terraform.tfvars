@@ -1,0 +1,9 @@
+region              = "us-west-2"
+vpc_cidr            = "10.0.0.0/16"
+public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24", "10.0.3.0/24"]
+private_subnet_cidrs = ["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]
+instance_type       = "t2.micro"
+ami_owner           = "099720109477"
+ami_filter_name     = "ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"
+domain_name         = "example.com"
+subdomain_name      = "nginx"
